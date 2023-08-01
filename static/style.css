@@ -1,0 +1,55 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    background: url("bg4.jpeg");
+     background-size:cover;
+
+}
+.regform{
+    width: 300px;
+    margin: 200px auto;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 30px 30px;
+    border-radius: 15px;
+
+}
+.regform h3{
+    text-align: center;
+}
+.input input{
+    width: 100%;
+    font-size: 1em;
+    font-family: roboto;
+    border-radius: 7px;
+    padding: 8px 8px;
+    box-sizing: border-box;
+    margin: 5px 0px 15px;
+}
+.input button{
+    padding: 30px 10px 10px;
+}
+input:focus{
+    background-color: bisque;
+}
+input:valid{
+    background-color:aliceblue;
+}
+input::placeholder{
+    color: rgba(123, 117, 117, 0.818);
+}
+.btn{
+    text-align:center;
+    padding-top: 10px;
+
+}
+button{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 17px;
+    background-color: rgb(246, 174, 6);
+    color: rgb(0, 0, 0);
+    border-radius: 7px;
+    border: 2px solid rgb(255, 81, 0);
+    padding:7px;
+    position: relative;
+}
+
+
